@@ -7,7 +7,7 @@ gem 'rails', '~> 7.0.1'
 gem 'cssbundling-rails'
 gem 'jsbundling-rails'
 gem 'turbo-rails'
-gem 'propshaft', '0.4.0' # Changing this will break stuff. Work needed.
+gem 'propshaft', '0.4.2' # Changing this will break stuff. Work needed.
 
 gem 'mysql2', '~> 0.5.6'
 gem 'redis', '~> 4.0'
@@ -15,7 +15,7 @@ gem 'aws-sdk-s3', '~> 1'
 gem 'aws-sdk-ecr'
 gem 'aws-sdk-cloudfront'
 gem 'aws-sdk-sesv2'
-gem 'anycable-rails', '~> 1.2.0'
+gem 'anycable-rails', '~> 1.4.1'
 gem 'grpc', '>= 1.53.0'
 gem 'crawler_detect'
 
@@ -59,7 +59,7 @@ gem 'devise', '~> 4.7'
 
 # Omniauth
 gem 'omniauth-github'
-gem 'omniauth-discord'
+gem 'omniauth-discord', '>= 1.2.0'
 gem 'omniauth-rails_csrf_protection'
 
 # Payments
@@ -94,9 +94,9 @@ group :development do
   gem 'haml_lint', require: false
   gem 'solargraph'
   gem 'rubocop', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-minitest', require: false
-  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', '>= 2.30.0', require: false
+  gem 'rubocop-minitest', '>= 0.37.1', require: false
+  gem 'rubocop-performance', '>= 1.24.0', require: false
   gem 'web-console', '>= 3.3.0'
 end
 

@@ -6,7 +6,7 @@ ruby '3.3.0'
 gem 'rails', '~> 7.0.1'
 gem 'cssbundling-rails'
 gem 'jsbundling-rails'
-gem 'turbo-rails'
+gem 'turbo-rails', '>= 2.0.13'
 gem 'propshaft', '0.4.0' # Changing this will break stuff. Work needed.
 
 gem 'mysql2', '~> 0.5.6'

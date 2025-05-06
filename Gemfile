@@ -3,11 +3,11 @@ source 'https://rubygems.org'
 ruby '3.3.0'
 
 # Service/framework dependencies
-gem 'rails', '~> 7.0.1'
+gem 'rails', '~> 7.2.0'
 gem 'cssbundling-rails'
 gem 'jsbundling-rails'
 gem 'turbo-rails'
-gem 'propshaft', '0.4.0' # Changing this will break stuff. Work needed.
+gem 'propshaft', '0.4.2' # Changing this will break stuff. Work needed.
 
 gem 'mysql2', '~> 0.5.6'
 gem 'redis', '~> 4.0'

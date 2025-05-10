@@ -7,7 +7,7 @@ gem 'rails', '~> 7.0.1'
 gem 'cssbundling-rails'
 gem 'jsbundling-rails'
 gem 'turbo-rails'
-gem 'propshaft', '0.4.0' # Changing this will break stuff. Work needed.
+gem 'propshaft', '0.4.2' # Changing this will break stuff. Work needed.
 
 gem 'mysql2', '~> 0.5.6'
 gem 'redis', '~> 4.0'
@@ -15,7 +15,7 @@ gem 'aws-sdk-s3', '~> 1'
 gem 'aws-sdk-ecr'
 gem 'aws-sdk-cloudfront'
 gem 'aws-sdk-sesv2'
-gem 'anycable-rails', '~> 1.2.0'
+gem 'anycable-rails', '~> 1.4.1'
 gem 'grpc', '>= 1.53.0'
 gem 'crawler_detect'
 

@@ -7,7 +7,7 @@ gem 'rails', '~> 7.0.1'
 gem 'cssbundling-rails'
 gem 'jsbundling-rails'
 gem 'turbo-rails'
-gem 'propshaft', '0.4.0' # Changing this will break stuff. Work needed.
+gem 'propshaft', '0.4.2' # Changing this will break stuff. Work needed.
 
 gem 'mysql2', '~> 0.5.6'
 gem 'redis', '~> 4.0'
@@ -15,7 +15,7 @@ gem 'aws-sdk-s3', '~> 1'
 gem 'aws-sdk-ecr'
 gem 'aws-sdk-cloudfront'
 gem 'aws-sdk-sesv2'
-gem 'anycable-rails', '~> 1.2.0'
+gem 'anycable-rails', '~> 1.4.1'
 gem 'grpc', '>= 1.53.0'
 gem 'crawler_detect'
 
@@ -43,7 +43,7 @@ gem 'exercism-config', '>= 0.119.0' # gem 'exercism-config', path: '../config'
 # Model-level dependencies
 gem 'image_processing', '~> 1.2'
 gem 'friendly_id', '~> 5.4.0'
-gem 'sidekiq', '7.1.4'
+gem 'sidekiq', '8.0.0'
 gem 'sidekiq-failures'
 gem 'sidekiq-scheduler'
 
@@ -59,7 +59,7 @@ gem 'devise', '~> 4.7'
 
 # Omniauth
 gem 'omniauth-github'
-gem 'omniauth-discord'
+gem 'omniauth-discord', '>= 1.2.0'
 gem 'omniauth-rails_csrf_protection'
 
 # Payments

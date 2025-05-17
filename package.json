@@ -2,7 +2,7 @@
   "name": "exercism",
   "private": true,
   "dependencies": {
-    "@babel/plugin-transform-regenerator": "^7.25.9",
+    "@babel/plugin-transform-regenerator": "^7.27.1",
     "@ballerina/highlightjs-ballerina": "^1.0.1",
     "@bugsnag/js": "^7.10.0",
     "@bugsnag/plugin-react": "^7.19.0",
@@ -91,7 +91,7 @@
     "html2canvas": "^1.4.1",
     "htmlhint": "^1.1.4",
     "humps": "^2.0.1",
-    "i18next": "^23.16.6",
+    "i18next": "^24.2.3",
     "i18next-resources-to-backend": "^1.2.1",
     "immer": "^10.1.1",
     "localforage": "^1.9.0",

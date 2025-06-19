@@ -21,7 +21,7 @@ gem 'crawler_detect'
 
 # Serving requests
 gem 'puma', '~> 4.3'
-gem 'rack-cors'
+gem 'rack-cors', '>= 3.0.0'
 
 # Helper gems for Rails
 gem 'bootsnap', '>= 1.4.2', require: false

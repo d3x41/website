@@ -7,7 +7,7 @@ gem 'rails', '~> 7.1.0'
 gem 'cssbundling-rails'
 gem 'jsbundling-rails'
 gem 'turbo-rails'
-gem 'propshaft', '0.4.0' # Changing this will break stuff. Work needed.
+gem 'propshaft', '0.4.2' # Changing this will break stuff. Work needed.
 gem 'base64'
 
 gem 'mysql2', '~> 0.5.6'

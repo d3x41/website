@@ -3,11 +3,11 @@ source 'https://rubygems.org'
 ruby '3.4.4'
 
 # Service/framework dependencies
-gem 'rails', '~> 7.1.0'
+gem 'rails', '~> 7.2.0'
 gem 'cssbundling-rails'
 gem 'jsbundling-rails'
 gem 'turbo-rails'
-gem 'propshaft', '0.4.0' # Changing this will break stuff. Work needed.
+gem 'propshaft', '0.4.1' # Changing this will break stuff. Work needed.
 gem 'base64'
 
 gem 'mysql2', '~> 0.5.6'
@@ -94,8 +94,8 @@ group :development, :test do
 end
 
 group :development do
-  gem 'haml_lint', require: false
-  gem 'solargraph'
+  gem 'haml_lint', '>= 0.63.0', require: false
+  gem 'solargraph', '>= 0.55.3'
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-minitest', require: false
